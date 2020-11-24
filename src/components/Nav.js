@@ -24,7 +24,7 @@ const NavBar = () => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" className="header">
+      <AppBar position="fixed" className="header">
         <Toolbar>
           {/* <IconButton
             edge="start"

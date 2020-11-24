@@ -19,6 +19,11 @@ const HomePage = () => {
         />
         <div className="banner-text">
           <h1>Full Stack Software Engineer</h1>
+          <hr />
+          <p>
+            HTML5 | CSS3 | JavaScript | TypeScript | React.js | Node.js | Python
+            | SQL
+          </p>
         </div>
       </div>
     </div>
