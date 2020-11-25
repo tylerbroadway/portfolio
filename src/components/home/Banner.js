@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -18,6 +18,8 @@ const Banner = () => {
         </p>
         <div className="social">
           <FaLinkedin className="icon" />
+          <FaGithub className="icon" />
+          <FaTwitter className="icon" />
         </div>
       </div>
     </div>

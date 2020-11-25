@@ -35,6 +35,7 @@ code {
   align-items: center;
   text-align: center;
   position: fixed;
+  overflow-y: hidden;
   top: 0;
   left: 0;
   width: 100%;
@@ -66,8 +67,9 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 65%;
   margin: auto;
+  margin-bottom: 2em;
   background-color: black;
   opacity: 0.8;
   border-radius: 10px;
@@ -91,12 +93,20 @@ code {
   padding: 1em;
 }
 
-.social i {
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
   color: white;
-  font-size: 5em;
+  font-size: 3em;
   padding: 8px;
 }
 
 .icon {
   color: white;
+}
+
+.icon:hover {
+  cursor: pointer;
 }
