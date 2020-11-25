@@ -2,6 +2,10 @@ import React from "react";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Banner = () => {
+  const onIconClick = (url) => {
+    window.open(url);
+  };
+
   return (
     <div className="banner">
       <img
@@ -17,9 +21,20 @@ const Banner = () => {
           SQL
         </p>
         <div className="social">
-          <FaLinkedin className="icon" />
-          <FaGithub className="icon" />
-          <FaTwitter className="icon" />
+          <FaLinkedin
+            className="icon"
+            onClick={() =>
+              onIconClick("https://www.linkedin.com/in/tyler-broadway/")
+            }
+          />
+          <FaGithub
+            className="icon"
+            onClick={() => onIconClick("https://github.com/tylerbroadway")}
+          />
+          <FaTwitter
+            className="icon"
+            onClick={() => onIconClick("https://twitter.com/tyler_broadway")}
+          />
         </div>
       </div>
     </div>
