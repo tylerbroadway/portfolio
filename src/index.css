@@ -68,7 +68,6 @@ code {
   align-items: center;
   width: 75%;
   margin: auto;
-  margin-bottom: 3em;
   background-color: black;
   opacity: 0.8;
   border-radius: 10px;
@@ -96,4 +95,8 @@ code {
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.icon {
+  color: white;
 }
