@@ -113,7 +113,7 @@ code {
 .projects-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: calc(90vh - 14px);
   margin-top: 4rem;

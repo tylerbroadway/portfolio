@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "1rem",
     marginRight: "1rem",
     border: "2px solid #0f2027",
+    borderRadius: ".5rem",
   },
   media: {
     height: 0,
@@ -60,22 +61,48 @@ const Project = (props) => {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <Button
-          id="project-link"
-          variant="contained"
-          href={repo}
-          target="_blank"
-        >
-          View Code
-        </Button>
-        <Button
-          id="project-link"
-          variant="contained"
-          href={demo}
-          target="_blank"
-        >
-          Live Demo
-        </Button>
+        {repo ? (
+          <Button
+            id="project-link"
+            variant="contained"
+            href={repo}
+            target="_blank"
+          >
+            View Code
+          </Button>
+        ) : (
+          <Button
+            id="project-link"
+            variant="contained"
+            href={repo}
+            target="_blank"
+            disabled
+            style={{ opacity: "50%" }}
+          >
+            View Code
+          </Button>
+        )}
+        {demo ? (
+          <Button
+            id="project-link"
+            variant="contained"
+            href={demo}
+            target="_blank"
+          >
+            Live Demo
+          </Button>
+        ) : (
+          <Button
+            id="project-link"
+            variant="contained"
+            href={demo}
+            target="_blank"
+            disabled
+            style={{ opacity: "50%" }}
+          >
+            Live Demo
+          </Button>
+        )}
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
