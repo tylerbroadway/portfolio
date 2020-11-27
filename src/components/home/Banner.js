@@ -1,13 +1,13 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaTwitter, FaDatabase } from "react-icons/fa";
-import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
-  SiTypescript,
-  SiNodeDotJs,
-  SiPython,
-} from "react-icons/si";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+// import {
+//   SiHtml5,
+//   SiCss3,
+//   SiJavascript,
+//   SiTypescript,
+//   SiNodeDotJs,
+//   SiPython,
+// } from "react-icons/si";
 
 const Banner = () => {
   const onIconClick = (url) => {
