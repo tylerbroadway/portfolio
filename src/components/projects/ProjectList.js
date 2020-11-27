@@ -10,6 +10,24 @@ const ProjectList = () => {
       repo: "https://github.com/tylerbroadway/portfolio",
       demo: "https://tylerbroadway.dev",
     },
+    {
+      title: "Post It Here (API)",
+      img:
+        "https://rdwgroup.com/wp-content/uploads/2018/10/reddit2-800x450-1.png",
+      description: "I built an API for a project",
+      tech: ["Node.js", "Express.js", "PostgreSQL", "Heroku"],
+      repo: "https://github.com/Post-It-Here/backend",
+      demo: "",
+    },
+    {
+      title: "Netflix Clone",
+      img:
+        "https://cdn.vox-cdn.com/thumbor/NpKOdQxdJD8OpkLfH8oaxFJtD00=/39x0:3111x2048/1400x788/filters:focal(39x0:3111x2048):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png",
+      description: "An exact clone of Netflix",
+      tech: ["JavaScript", "React", "Redux", "Styled Components"],
+      repo: "",
+      demo: "",
+    },
   ];
 
   return (

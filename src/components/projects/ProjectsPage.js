@@ -5,7 +5,9 @@ const ProjectsPage = () => {
   return (
     <div>
       <NavBar />
-      <ProjectList />
+      <div className="projects-container">
+        <ProjectList />
+      </div>
     </div>
   );
 };

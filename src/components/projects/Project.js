@@ -17,8 +17,9 @@ import {
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
-    margin: "5rem 0 0 1rem",
-    border: "1px solid #0f2027",
+    marginLeft: "1rem",
+    marginRight: "1rem",
+    border: "2px solid #0f2027",
   },
   media: {
     height: 0,
