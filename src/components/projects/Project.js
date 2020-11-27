@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
     margin: "5rem 0 0 1rem",
+    border: "1px solid #0f2027",
   },
   media: {
     height: 0,
@@ -44,11 +45,6 @@ const Project = (props) => {
     setExpanded(!expanded);
   };
 
-  const handleButtonClick = (url) => {
-    console.log(url);
-    window.open(url);
-  };
-
   return (
     <Card className={classes.root}>
       <CardHeader title={`${title}`} />
@@ -63,24 +59,22 @@ const Project = (props) => {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton>
-          <Button
-            className="project-link"
-            variant="contained"
-            onClick={() => handleButtonClick(repo)}
-          >
-            View Code
-          </Button>
-        </IconButton>
-        <IconButton>
-          <Button
-            className="project-link"
-            variant="contained"
-            onClick={() => handleButtonClick(demo)}
-          >
-            Live Demo
-          </Button>
-        </IconButton>
+        <Button
+          id="project-link"
+          variant="contained"
+          href={repo}
+          target="_blank"
+        >
+          View Code
+        </Button>
+        <Button
+          id="project-link"
+          variant="contained"
+          href={demo}
+          target="_blank"
+        >
+          Live Demo
+        </Button>
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -95,7 +89,12 @@ const Project = (props) => {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph>Technologies Used:</Typography>
-          <Typography paragraph>{tech}</Typography>
+          <ul>
+            {tech &&
+              tech.map((t) => {
+                return <li>{t}</li>;
+              })}
+          </ul>
         </CardContent>
       </Collapse>
     </Card>

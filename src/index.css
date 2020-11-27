@@ -110,7 +110,8 @@ code {
   cursor: pointer;
 }
 
-.project-link {
+#project-link {
+  margin: 0 0.5rem 0 0.5rem;
   color: white !important;
   background: #0f2027; /* fallback for old browsers */
   background: -webkit-linear-gradient(
