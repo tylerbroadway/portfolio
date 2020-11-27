@@ -19,7 +19,6 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 345,
     marginLeft: "1rem",
     marginRight: "1rem",
-    border: "2px solid #0f2027",
     borderRadius: ".5rem",
   },
   media: {
