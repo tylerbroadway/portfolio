@@ -4,7 +4,11 @@ const ContactPage = () => {
   return (
     <div>
       <Nav />
-      <h1 style={{ marginTop: "5rem" }}>Contact Me</h1>
+      <div className="contact-body">
+        <div className="form-container">
+          <h1>Contact Me</h1>
+        </div>
+      </div>
     </div>
   );
 };

@@ -82,7 +82,8 @@ code {
 
 .banner-text hr {
   border-top: 5px solid white;
-  width: 50%;
+  border-radius: 12px;
+  width: 60%;
   margin: auto;
 }
 
@@ -118,35 +119,32 @@ code {
   height: calc(90vh - 14px);
   margin-top: 4rem;
   padding-top: 1rem;
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #project-link {
   margin: 0 0.5em 0 0.5em;
   color: white !important;
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+
+.contact-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  width: auto;
+  height: calc(85vh + 2.2rem);
+}
+
+.form-container {
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 70%;
+  height: 75%;
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  color: white;
 }

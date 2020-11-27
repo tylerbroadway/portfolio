@@ -7,8 +7,8 @@ const ProjectList = () => {
       img: "https://pi.math.cornell.edu/~lipa/mec/banner.png",
       description: "I built a cool app that does cool stuff",
       tech: ["JavaScript", "React", "Styled Components"],
-      repo: "https://github.com/tylerbroadway/portfolio",
-      demo: "https://tylerbroadway.dev",
+      repo: "https://github.com/tylerbroadway/game-of-life",
+      demo: "https://conways-game-of-life-tb.netlify.app",
     },
     {
       title: "Post It Here (API)",
