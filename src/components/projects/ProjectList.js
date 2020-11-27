@@ -42,6 +42,7 @@ const ProjectList = () => {
               tech={project.tech}
               repo={project.repo}
               demo={project.demo}
+              key={project.title}
             />
           );
         })}

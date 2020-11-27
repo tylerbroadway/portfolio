@@ -13,19 +13,9 @@ code {
 }
 
 .header {
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
 }
 
 .banner {
@@ -34,25 +24,15 @@ code {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  position: fixed;
   overflow-y: hidden;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: calc(95vh + 2.1rem);
+  background: white;
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
 }
 
 .avatar {
@@ -148,12 +128,13 @@ code {
 .form-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   border-radius: 1rem;
   width: 40%;
   height: 85%;
   background: white;
+  box-shadow: 0.75rem 0.75rem 0.5rem;
 }
 
 .form form {
@@ -169,4 +150,48 @@ code {
   background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
   color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .banner {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+  }
+  .avatar {
+    height: 150px;
+  }
+
+  .banner-text {
+    height: 50%;
+    width: 85%;
+  }
+
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+
+  .projects-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: calc(4rem - 8px);
+    height: 200vh;
+  }
+
+  #responsive-card {
+    margin: 1rem !important;
+    border: 5px solid red;
+  }
+
+  .contact-body {
+    margin-top: 3.5rem;
+    height: 100vh;
+  }
+
+  .form-container {
+    width: 80%;
+  }
 }

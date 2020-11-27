@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "1rem",
     marginRight: "1rem",
     borderRadius: ".5rem",
+    boxShadow: "1rem 1rem .5rem",
   },
   media: {
     height: 0,
