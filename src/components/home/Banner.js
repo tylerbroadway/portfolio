@@ -1,10 +1,44 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter, FaDatabase } from "react-icons/fa";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiTypescript,
+  SiNodeDotJs,
+  SiPython,
+} from "react-icons/si";
 
 const Banner = () => {
   const onIconClick = (url) => {
     window.open(url);
   };
+
+  // const technologies = [
+  //   "HTML5",
+  //   "CSS3",
+  //   "JavaScript",
+  //   "TypeScript",
+  //   "Node.js",
+  //   "Python",
+  //   "SQL",
+  // ];
+
+  // const icons = [
+  //   <SiHtml5 />,
+  //   <SiCss3 />,
+  //   <SiJavascript />,
+  //   <SiTypescript />,
+  //   <SiNodeDotJs />,
+  //   <SiPython />,
+  //   <FaDatabase />,
+  // ];
+
+  // const renderTech = () => {
+  //   for (let i = 0; i < technologies.length; i++) {
+  //     return <h4 style={{ color: "white" }}>{technologies[i]}</h4>;
+  //   }
+  // };
 
   return (
     <div className="banner">
