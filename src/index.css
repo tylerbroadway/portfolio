@@ -154,7 +154,7 @@ code {
 
 @media screen and (max-width: 500px) {
   .responsive-nav-title {
-    word-wrap: none;
+    size: 1rem !important;
   }
 
   .banner {
@@ -187,7 +187,6 @@ code {
 
   #responsive-card {
     margin: 1rem !important;
-    border: 5px solid red;
   }
 
   .contact-body {
