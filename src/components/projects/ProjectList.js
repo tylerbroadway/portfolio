@@ -5,7 +5,7 @@ const ProjectList = () => {
     {
       title: "Conway's Game of Life",
       img: "https://pi.math.cornell.edu/~lipa/mec/banner.png",
-      description: "I built a cool app that does cool stuff",
+      description: "An implementation of the Game of Life in React.",
       tech: ["JavaScript", "React", "Styled Components"],
       repo: "https://github.com/tylerbroadway/game-of-life",
       demo: "https://conways-game-of-life-tb.netlify.app",
@@ -14,7 +14,8 @@ const ProjectList = () => {
       title: "Post It Here (API)",
       img:
         "https://rdwgroup.com/wp-content/uploads/2018/10/reddit2-800x450-1.png",
-      description: "I built an API for a project",
+      description:
+        "I architected and built an API that uses a Machine Learning API to suggest which sub-reddit to post in.",
       tech: ["Node.js", "Express.js", "PostgreSQL", "Heroku"],
       repo: "https://github.com/Post-It-Here/backend",
       demo: "",

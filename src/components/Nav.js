@@ -27,7 +27,11 @@ const NavBar = () => {
     <div className={classes.root}>
       <AppBar position="fixed" className="header">
         <Toolbar>
-          <Typography variant="h6" className={classes.title}>
+          <Typography
+            variant="h6"
+            className={classes.title}
+            id="responsive-nav-title"
+          >
             Tyler Broadway
           </Typography>
           <Button color="inherit" onClick={() => onNavClick("/")}>
