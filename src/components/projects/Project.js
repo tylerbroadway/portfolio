@@ -48,7 +48,7 @@ const Project = (props) => {
   };
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} id="responsive-card">
       <CardHeader title={`${title}`} />
       <CardMedia
         className={classes.media}

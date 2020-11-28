@@ -153,9 +153,14 @@ code {
 }
 
 @media screen and (max-width: 500px) {
+  .responsive-nav-title {
+    word-wrap: none;
+  }
+
   .banner {
     display: flex;
     justify-content: space-evenly;
+    height: 100vh;
   }
   .avatar {
     height: 150px;
