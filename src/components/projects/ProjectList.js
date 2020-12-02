@@ -21,10 +21,10 @@ const ProjectList = () => {
       demo: "",
     },
     {
-      title: "Netflix Clone (Coming Soon!)",
+      title: "Amazon Clone (Coming Soon!)",
       img:
-        "https://cdn.vox-cdn.com/thumbor/NpKOdQxdJD8OpkLfH8oaxFJtD00=/39x0:3111x2048/1400x788/filters:focal(39x0:3111x2048):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png",
-      description: "An exact clone of Netflix",
+        "https://concordanceacademy.org/wp-content/uploads/2018/11/Amazon-Logo-Black.jpg",
+      description: "A fully functional clone of Amazon.",
       tech: ["JavaScript", "React", "Redux", "Styled Components"],
       repo: "",
       demo: "",
