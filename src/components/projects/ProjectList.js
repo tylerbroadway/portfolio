@@ -21,13 +21,13 @@ const ProjectList = () => {
       demo: "",
     },
     {
-      title: "Amazon Clone (Coming Soon!)",
+      title: "Algo View",
       img:
-        "https://concordanceacademy.org/wp-content/uploads/2018/11/Amazon-Logo-Black.jpg",
-      description: "A fully functional clone of Amazon.",
-      tech: ["JavaScript", "React", "Redux", "Styled Components"],
-      repo: "",
-      demo: "",
+        "https://media-exp1.licdn.com/dms/image/sync/C4E27AQFgWgJ9lLHFgA/articleshare-shrink_480/0/1608698751048?e=1608872400&v=beta&t=XtCYWvnvzsoPCt-cwMzxQG8tjuNJA6YdvYpHh0K5_5c",
+      description: "A sorting algorithm visualizer",
+      tech: ["JavaScript", "React"],
+      repo: "https://github.com/tylerbroadway/algo-visualizer",
+      demo: "https://algo-view.netlify.app",
     },
   ];
 
